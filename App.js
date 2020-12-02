@@ -37,7 +37,7 @@ constructor(props) {
   }
 
 
-  handlerClick = () => {
+  handlerButtom = () => {
     console.log("handleado");
 
     var nombre = this.state.value;
