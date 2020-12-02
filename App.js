@@ -10,7 +10,7 @@ const axios = require("axios");
 export default class App extends React.Component {
 constructor(props) {
     super(props);
-    this.handlerClick = this.handlerClick.bind(this);
+    this.handlerButtom = this.handlerButtom.bind(this);
     this.handlerChange = this.handlerChange.bind(this);
     this.state = {
       isReady: false,
